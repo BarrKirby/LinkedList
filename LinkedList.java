@@ -108,7 +108,7 @@ public class linkedList<E extends Comparable<E>>{
 
     }
 
-    public void concatenateList (myLinkedList<E> M) {//attach another linkedList refered by M to the end of this linkedList
+    public void concatenateList (linkedList<E> M) {//attach another linkedList refered by M to the end of this linkedList
 
         if(this.head == null){
             head = M.head;
